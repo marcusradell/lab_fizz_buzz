@@ -1,6 +1,6 @@
 mod fizzbuzz;
 
 fn main() {
-    let result = fizzbuzz::token_at(1);
+    let result = fizzbuzz::run(100);
     println!("Result: {}", result);
 }
